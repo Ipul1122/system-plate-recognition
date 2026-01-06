@@ -1,0 +1,22 @@
+# 1. Virtual Environment (WAJIB DI-IGNORE)
+# Ini folder paling berat, jangan sampai ke-upload
+venv/
+env/
+.env
+
+# 2. Python Cache (Sampah kompilasi)
+__pycache__/
+*.pyc
+
+# 3. System & IDE Files
+.DS_Store
+.vscode/
+.idea/
+
+# 4. Model Files (Opsional)
+# yolov8n.pt bisa didownload ulang otomatis oleh script, jadi ignore saja
+yolov8n.pt
+
+# Catatan: 'plat_model.pt' TIDAK saya masukkan ke sini
+# karena itu file penting dan ukurannya kecil (<20MB),
+# jadi sebaiknya ikut di-push agar nanti pas di-clone langsung jalan.
